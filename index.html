@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuantumX Protocol | Multi-Chain DeFi Infrastructure</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">QuantumX Protocol</div>
+
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#ecosystem">Ecosystem</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#tokenomics">Tokenomics</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#docs">Docs</a></li>
+    </ul>
+
+    <button id="connectBtn">Connect Wallet</button>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+
+    <div class="badge">
+      NEXT GENERATION DEFI INFRASTRUCTURE
+    </div>
+
+    <h1>
+      Powering the Future of
+      <span>Cross-Chain Liquidity</span>
+    </h1>
+
+    <p>
+      QuantumX Protocol is a decentralized finance infrastructure layer
+      designed for institutional-grade liquidity, cross-chain interoperability,
+      staking rewards, AI-driven analytics, and scalable Web3 applications.
+    </p>
+
+    <div class="hero-buttons">
+      <button class="primary-btn">Launch App</button>
+      <button class="secondary-btn">View Whitepaper</button>
+    </div>
+
+    <div class="wallet-box">
+      <p id="walletAddress">
+        Wallet Not Connected
+      </p>
+    </div>
+
+    <div class="hero-stats">
+      <div>
+        <h3>$4.8B+</h3>
+        <span>TVL Secured</span>
+      </div>
+
+      <div>
+        <h3>540K+</h3>
+        <span>Active Wallets</span>
+      </div>
+
+      <div>
+        <h3>42</h3>
+        <span>Integrated Chains</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="about section" id="about">
+
+  <div class="section-title">
+    <h2>Why QuantumX Protocol?</h2>
+    <p>
+      QuantumX Protocol was built to solve fragmented liquidity,
+      expensive transactions, and isolated blockchain ecosystems.
+    </p>
+  </div>
+
+  <div class="about-grid">
+
+    <div class="about-card">
+      <h3>Unified Liquidity Layer</h3>
+      <p>
+        QuantumX aggregates liquidity from multiple chains and
+        DeFi protocols into one unified infrastructure layer,
+        enabling efficient swaps and deep liquidity access.
+      </p>
+    </div>
+
+    <div class="about-card">
+      <h3>Institutional-Grade Security</h3>
+      <p>
+        Multi-signature treasury management, audited smart contracts,
+        and AI-based monitoring systems help secure protocol assets
+        and protect users across all integrations.
+      </p>
+    </div>
+
+    <div class="about-card">
+      <h3>Scalable Multi-Chain Architecture</h3>
+      <p>
+        The protocol supports Ethereum, Arbitrum, Optimism, BNB Chain,
+        Solana, and modular rollups through a scalable interoperability layer.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="ecosystem section" id="ecosystem">
+
+  <div class="section-title">
+    <h2>How QuantumX Protocol Works</h2>
+    <p>
+      QuantumX combines smart routing, staking infrastructure,
+      and decentralized governance into one seamless DeFi ecosystem.
+    </p>
+  </div>
+
+  <div class="ecosystem-grid">
+
+    <div class="ecosystem-card">
+      <span>01</span>
+      <h3>Liquidity Aggregation</h3>
+      <p>
+        Smart routing engines scan multiple DEXs and chains
+        to provide the best execution and optimized trading routes.
+      </p>
+    </div>
+
+    <div class="ecosystem-card">
+      <span>02</span>
+      <h3>Cross-Chain Bridge</h3>
+      <p>
+        QuantumX enables seamless asset movement between ecosystems
+        while minimizing fees and reducing bridge fragmentation.
+      </p>
+    </div>
+
+    <div class="ecosystem-card">
+      <span>03</span>
+      <h3>Yield & Staking Engine</h3>
+      <p>
+        Users can stake QTX tokens, provide liquidity, and receive
+        dynamic rewards generated from protocol fees and ecosystem incentives.
+      </p>
+    </div>
+
+    <div class="ecosystem-card">
+      <span>04</span>
+      <h3>DAO Governance</h3>
+      <p>
+        Token holders participate in treasury management,
+        ecosystem proposals, and protocol upgrades through on-chain voting.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="features section" id="features">
+
+  <div class="section-title">
+    <h2>Protocol Features</h2>
+    <p>
+      Enterprise-ready DeFi infrastructure designed for modern Web3 adoption.
+    </p>
+  </div>
+
+  <div class="feature-grid">
+
+    <div class="feature-card">
+      <div class="icon">⚡</div>
+      <h3>Ultra Fast Settlement</h3>
+      <p>
+        Execute low-latency transactions with optimized smart routing
+        and modular blockchain integrations.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon">🔒</div>
+      <h3>Secure Smart Contracts</h3>
+      <p>
+        QuantumX smart contracts are continuously audited and monitored
+        through automated risk analysis systems.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon">🌐</div>
+      <h3>Cross-Chain Interoperability</h3>
+      <p>
+        Access liquidity and applications across multiple blockchain ecosystems.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon">📊</div>
+      <h3>AI Analytics</h3>
+      <p>
+        Real-time protocol analytics provide actionable insights
+        for traders, institutions, and liquidity providers.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="tokenomics section" id="tokenomics">
+
+  <div class="section-title">
+    <h2>QTX Tokenomics</h2>
+    <p>
+      Sustainable token distribution designed for long-term ecosystem growth.
+    </p>
+  </div>
+
+  <div class="tokenomics-grid">
+
+    <div class="token-card">
+      <h3>35%</h3>
+      <p>Liquidity & Ecosystem Rewards</p>
+    </div>
+
+    <div class="token-card">
+      <h3>20%</h3>
+      <p>Staking Incentives</p>
+    </div>
+
+    <div class="token-card">
+      <h3>15%</h3>
+      <p>Treasury Reserve</p>
+    </div>
+
+    <div class="token-card">
+      <h3>15%</h3>
+      <p>Development & Security</p>
+    </div>
+
+    <div class="token-card">
+      <h3>10%</h3>
+      <p>Strategic Partnerships</p>
+    </div>
+
+    <div class="token-card">
+      <h3>5%</h3>
+      <p>Community Governance</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="roadmap section" id="roadmap">
+
+  <div class="section-title">
+    <h2>Roadmap</h2>
+    <p>
+      Building the next generation of decentralized financial infrastructure.
+    </p>
+  </div>
+
+  <div class="roadmap-grid">
+
+    <div class="roadmap-card">
+      <h3>Q3 2026</h3>
+      <ul>
+        <li>Mainnet infrastructure launch</li>
+        <li>Wallet integration</li>
+        <li>Core liquidity engine</li>
+      </ul>
+    </div>
+
+    <div class="roadmap-card">
+      <h3>Q4 2026</h3>
+      <ul>
+        <li>Cross-chain bridge deployment</li>
+        <li>Institutional liquidity vaults</li>
+        <li>DAO governance launch</li>
+      </ul>
+    </div>
+
+    <div class="roadmap-card">
+      <h3>Q1 2027</h3>
+      <ul>
+        <li>AI-powered trading analytics</li>
+        <li>Real-world asset integrations</li>
+        <li>Yield optimization engine</li>
+      </ul>
+    </div>
+
+    <div class="roadmap-card">
+      <h3>2027+</h3>
+      <ul>
+        <li>Modular DeFi SDK</li>
+        <li>Global institutional expansion</li>
+        <li>Quantum-resistant security systems</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="docs section" id="docs">
+
+  <div class="section-title">
+    <h2>Developer & Community</h2>
+    <p>
+      Open infrastructure for builders, liquidity providers, and Web3 communities.
+    </p>
+  </div>
+
+  <div class="docs-grid">
+
+    <div class="docs-card">
+      <h3>Developer APIs</h3>
+      <p>
+        Build advanced DeFi applications using QuantumX APIs,
+        SDKs, and smart contract tooling.
+      </p>
+    </div>
+
+    <div class="docs-card">
+      <h3>Governance Forum</h3>
+      <p>
+        Participate in protocol proposals, governance discussions,
+        and treasury decisions.
+      </p>
+    </div>
+
+    <div class="docs-card">
+      <h3>Security Transparency</h3>
+      <p>
+        Access public audit reports, protocol metrics,
+        and ecosystem monitoring dashboards.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+
+  <div>
+    © 2026 QuantumX Protocol — Decentralized Liquidity Infrastructure
+  </div>
+
+  <div class="footer-links">
+    <a href="#">Twitter</a>
+    <a href="#">Discord</a>
+    <a href="#">GitHub</a>
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
